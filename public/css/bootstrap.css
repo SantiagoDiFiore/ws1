@@ -1581,12 +1581,19 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-.container {
+.container{
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+
+.container-features{
+  padding: 20px 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -1641,6 +1648,7 @@ pre code {
 }
 .col-xs-6 {
   width: 50%;
+  padding-bottom: 15px;
 }
 .col-xs-5 {
   width: 41.66666667%;
@@ -1964,7 +1972,7 @@ pre code {
     width: 33.33333333%;
   }
   .col-md-3 {
-    width: 25%;
+    width: 33%;
   }
   .col-md-2 {
     width: 16.66666667%;

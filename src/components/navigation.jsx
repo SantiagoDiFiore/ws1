@@ -1,3 +1,5 @@
+import {Link} from 'react-scroll';
+
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -16,7 +18,8 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
+            <img src='img/bull-logo.png' alt="" className='nav-logo' />
+            <p className='brand-name'>The Cloud Bull</p>
           </a>{' '}
         </div>
 
@@ -26,38 +29,23 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#features' className='page-scroll'>
-                Features
-              </a>
-            </li>
-            <li>
-              <a href='#about' className='page-scroll'>
+              <Link to="about" spy={true} smooth={true} offset={-80} duration={500}>
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href='#services' className='page-scroll'>
+              <Link to="features" spy={true} smooth={true} offset={-80} duration={500}>
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a href='#portfolio' className='page-scroll'>
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href='#testimonials' className='page-scroll'>
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a href='#team' className='page-scroll'>
-                Team
-              </a>
-            </li>
-            <li>
-              <a href='#contact' className='page-scroll'>
+              <Link to="contact" spy={true} smooth={true} offset={-80} duration={500}>
                 Contact
+              </Link>
+            </li>
+            <li>
+              <a href='https://wa.me/' rel="noopener noreferrer" target="_blank">
+                Whatsapp
               </a>
             </li>
           </ul>

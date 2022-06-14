@@ -1,3 +1,5 @@
+import {Link} from 'react-scroll'
+
 export const Header = (props) => {
   return (
     <header id='header'>
@@ -11,12 +13,12 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
-                <a
-                  href='#features'
+                <Link
+                  to="about" spy={true} smooth={true} offset={-80} duration={500}
                   className='btn btn-custom btn-lg page-scroll'
                 >
                   Learn More
-                </a>{' '}
+                </Link>{' '}
               </div>
             </div>
           </div>
