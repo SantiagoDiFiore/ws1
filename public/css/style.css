@@ -285,16 +285,12 @@ header .intro-text {
   background: linear-gradient(to right, #4667a3 0%, #0b2556 100%);
 }
 #features i.fa {
-  font-size: 38px;
-  margin-bottom: 20px;
+  font-size: 45px;
   transition: all 0.5s;
   color: #fff;
   width: 100px;
   height: 100px;
   padding: 30px 0;
-  border-radius: 50%;
-  background: linear-gradient(to right, #4667a3 0%, #0b2556 100%);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
 #about {

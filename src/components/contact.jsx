@@ -34,6 +34,7 @@ export const Contact = (props) => {
           console.log(error.text)
         }
       )
+    e.target.reset();   
   }
   return (
     <div>
