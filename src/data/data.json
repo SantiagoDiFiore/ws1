@@ -4,23 +4,23 @@
     "paragraph": "We make the cloud simple. Wheather it's hiring top talent, developing a cloud solution or transitioning to the cloud, we're here for it."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "paragraph": "The Cloud Bull is a company whose main purpose is to assist and guide companies in the adoption of cloud computing, in order to grow their own, or their customers’ businesses. The Cloud Bull specializes in Azure, with expertise in creation, optimization, and evolution of products deployed in the cloud."
   },
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Professional Cloud Services",
+      "text": "We help you choose the right cloud platform, migrate, and optimize for cost, performance, security, reliability, & operational excellence."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "We help ypu hire top talent",
+      "text": "Need to fill a vacant position? Want to start a specialized cloud team? We help you hire top talent from LATAM."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "DevOps Practices",
+      "text": "We help you introduce automation in your integration, deployment and delivery processes."
     },
     {
       "icon": "fa fa-magic",
